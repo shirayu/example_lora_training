@@ -15,6 +15,6 @@ An example to train [Wikipe-tan](https://en.wikipedia.org/wiki/Wikipedia:Wikipe-
 
 ## Licence
 
-- For images in ``images.md`` and ``img_train``: check [images.md](images.md)
-- For images in ``img_reg``: CC0 1.0
+- Images in ``img_original`` and ``img_train``: check [images.md](images.md)
+- Images in ``img_reg``: CC0 1.0
 - Scripts and texts: CC0 1.0
