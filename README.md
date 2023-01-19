@@ -3,11 +3,15 @@
 
 An example to train [Wikipe-tan](https://en.wikipedia.org/wiki/Wikipedia:Wikipe-tan) with LoRA
 
+## Training
+
 1. Setup [kohya-ss/sd-scripts](https://github.com/kohya-ss/sd-scripts)
-2. Download ``ACertainty.ckpt`` from [the repo](https://huggingface.co/JosephusCheung/ACertainty/blob/main/ACertainty.ckpt)
-3. Run ``train_lora.zsh``
-4. Run ``test_lora.zsh`` and ``test_original.zsh``
-5. Check ``trained/last-examples`` and ``trained/original-examples``
+2. Move to ``sd-scripts`` directory
+3. Copy all files in this repository
+4. Download ``ACertainty.ckpt`` from [the repo](https://huggingface.co/JosephusCheung/ACertainty/blob/main/ACertainty.ckpt)
+5. Run ``train_lora.zsh``
+6. Run ``test_lora.zsh`` and ``test_original.zsh``
+7. Check ``trained/last-examples`` and ``trained/original-examples``
 
 ## Licence
 
