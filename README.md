@@ -1,7 +1,8 @@
 
 # Example of LoRA training
 
-An example to train [Wikipe-tan](https://en.wikipedia.org/wiki/Wikipedia:Wikipe-tan) with LoRA
+- An example to train [Wikipe-tan](https://en.wikipedia.org/wiki/Wikipedia:Wikipe-tan) with LoRA
+- Work in progress
 
 ## Training
 
