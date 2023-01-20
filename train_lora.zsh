@@ -19,16 +19,16 @@ accelerate launch \
     --resolution="512,704" \
     --train_batch_size=1 \
     --lr_warmup_steps=0 \
-    --lr_scheduler='cosine_with_restarts' \
-    --learning_rate=1e-5 \
-    --max_train_epochs=8 \
+    --lr_scheduler='constant' \
+    --learning_rate=5e-4 \
+    --max_train_epochs=15 \
     --use_8bit_adam \
     --xformers \
     --mixed_precision=fp16 \
     --save_every_n_epochs=1 \
     --clip_skip=2 \
     --seed=42 \
-    --network_dim=128 \
+    --network_dim=4 \
     --network_module=networks.lora \
     --save_model_as=safetensors \
     --save_precision="fp16"

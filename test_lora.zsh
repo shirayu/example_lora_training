@@ -4,7 +4,7 @@ MODEL_NAME=$(realpath ACertainty.ckpt)
 OUTPUT_DIR=$(realpath trained)
 mkdir -p "${OUTPUT_DIR}"
 TEST_PROMPT=$(realpath ./test_prompt.txt)
-DIM=128
+DIM=4
 
 TARGET=${TARGET:-last}
 
@@ -18,8 +18,8 @@ python ./gen_img_diffusers.py \
     --network_mul 1.0 \
     --scale 12 \
     --step 30 \
-    --images_per_prompt 4 \
-    --batch_size 4 \
+    --images_per_prompt 2 \
+    --batch_size 2 \
     --seed 42 \
     --sequential_file_name \
     --clip_skip=2 \
