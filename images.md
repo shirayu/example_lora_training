@@ -31,3 +31,12 @@ sudo apt install parallel imagemagick
 mkdir -p 'img_train/10_tk girl'
 find img_original -type f | sort | parallel -t -n1 -P1 convert -limit disk 0 -background white -alpha remove -alpha off -fuzz 5% -trim -resize 512x704 -gravity center -extent 512x704 {} '"img_train/10_tk girl/{#}.png"'
 ```
+
+## Tagging
+
+```bash
+cd sd-scripts
+python finetune/tag_images_by_wd14_tagger.py --batch_size=1 /path/to/target_dur
+```
+
+Please add concept tag to every generated caption file.
