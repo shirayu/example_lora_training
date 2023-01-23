@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "diffusers_lora_example"
+version = "0.1.0"
+description = ""
+authors = ["Yuta Hayashibe <yuta@hayashibe.jp>"]
+readme = "README.md"
+packages = []
+
+[tool.poetry.dependencies]
+python = "^3.10"
+diffusers = {git="https://github.com/huggingface/diffusers", rev="ffb3a26c5c96faf4934adca353045c42d1da63ae"}
+datasets = "^2.8.0"
+accelerate = "^0.15.0"
+transformers = "^4.25.1"
+torchvision = "^0.14.1"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.12.0"
+isort = "^5.11.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
