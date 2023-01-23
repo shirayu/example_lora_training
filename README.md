@@ -19,4 +19,4 @@
 
 - Images in ``img_reg``: CC0 1.0
 - Other images: Check [images.md](images.md)
-- Scripts and texts: CC0 1.0
+- Scripts and texts without copyright notice: CC0 1.0
