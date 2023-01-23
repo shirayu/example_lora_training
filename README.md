@@ -1,8 +1,10 @@
 
 # Example of LoRA training
 
-- An example to train [Wikipe-tan](https://en.wikipedia.org/wiki/Wikipedia:Wikipe-tan) with LoRA implementation in [kohya-ss/sd-scripts](https://github.com/kohya-ss/sd-scripts)
-- Work in progress
+- An example to train [Wikipe-tan](https://en.wikipedia.org/wiki/Wikipedia:Wikipe-tan) by the following implementations of LoRA
+
+1. [diffusers_lora_example](diffusers_lora_example): Implementation in [diffusers](https://github.com/huggingface/diffusers)
+2. [kohya-ss_lora_example](kohya-ss_lora_example): Implementation in [kohya-ss/sd-scripts](https://github.com/kohya-ss/sd-scripts)
 
 ## Training
 
