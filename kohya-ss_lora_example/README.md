@@ -22,7 +22,7 @@ Full installed libraries: [pip-list.txt](pip-list.txt)
 
 ### Input
 
-![An example of training image](img_train/5_Wikipe-tan, girl/9.png)
+![An example of training image](img_train/5_Wikipe-tan,%20girl/9.png)
 
 ### Generated image
 
