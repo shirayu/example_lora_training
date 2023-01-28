@@ -23,4 +23,4 @@ python ./gen_img_diffusers.py \
     --sequential_file_name \
     --clip_skip=2 \
     --network_module=networks.lora \
-    --network_weights=${OUTPUT_DIR}/${TARGET}.safetensors \
+    --network_weights=${OUTPUT_DIR}/${TARGET}.safetensors

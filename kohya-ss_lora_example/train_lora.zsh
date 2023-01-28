@@ -21,7 +21,7 @@ accelerate launch \
     --lr_warmup_steps=0 \
     --lr_scheduler='constant' \
     --learning_rate=5e-4 \
-    --max_train_epochs=15 \
+    --max_train_epochs=10 \
     --use_8bit_adam \
     --xformers \
     --mixed_precision=fp16 \
